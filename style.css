@@ -777,3 +777,15 @@ input {
     transition-duration: 0.01ms !important;
   }
 }
+/* Final polish and keyboard accessibility */
+@media (max-width: 420px) {
+  .button {
+    min-height: 44px;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #841d8f;
+  outline-offset: 3px;
+}
